@@ -59,7 +59,7 @@ public void printNamespacePodMetrics(String namespace) throws ApiException {
 ```log
 16:35:44.911 [main] DEBUG cn.ac.ict.wde.service.KubernetesService - node ***15: {cpu=Quantity{number=0.828512394, format=DECIMAL_SI}, memory=Quantity{number=108825636864, format=BINARY_SI}}
 16:35:44.915 [main] DEBUG cn.ac.ict.wde.service.KubernetesService - node ***17: {cpu=Quantity{number=0.328837919, format=DECIMAL_SI}, memory=Quantity{number=25566048256, format=BINARY_SI}}
-
+```
 
 **ContainerMetrics** output example：
 
