@@ -9,7 +9,11 @@
     * Client Version: "v1.15.5"
 
 ```xml
-
+<dependency>
+    <groupId>win.hgfdodo</groupId>
+    <artifactId>k8sclient</artifactId>
+    <version>0.1.0</version>
+</dependency>
 ```
 
 ## How to use
