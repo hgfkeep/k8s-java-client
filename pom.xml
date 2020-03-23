@@ -11,7 +11,7 @@
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/hgfkeep/k8sclient</url>
+            <url>https://maven.pkg.github.com/hgfkeep/k8s-java-client</url>
             <layout>default</layout>
         </repository>
     </distributionManagement>
