@@ -9,11 +9,17 @@
 
     <distributionManagement>
         <repository>
-            <id>github</id>
-            <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/hgfkeep/k8s-java-client</url>
+            <id>ossrh</id>
+            <name>Releases</name>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
             <layout>default</layout>
         </repository>
+        <snapshotRepository>
+            <id>ossrh-snapshot</id>
+            <name>Snapshot</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <layout>default</layout>
+        </snapshotRepository>
     </distributionManagement>
 
     <build>
