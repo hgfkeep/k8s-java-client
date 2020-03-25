@@ -6,9 +6,9 @@ name: maven central
 # events but only for the master branch
 on:
   push:
-    branches: [ master ]
+    branches: [ maven ]
   pull_request:
-    branches: [ master ]
+    branches: [ maven ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -29,7 +29,7 @@ jobs:
         server-username: MAVEN_USERNAME
         server-password: MAVEN_PASSWORD
     - name: Publish to the Maven Central Repository
-      run: mvn -B deploy --file pom.xml
+      run: mvn -B deploy -X --file pom.xml
       env:
         MAVEN_USERNAME: ${{ secrets.OSSRH_USERNAME }}
         MAVEN_PASSWORD: ${{ secrets.OSSRH_TOKEN }}
