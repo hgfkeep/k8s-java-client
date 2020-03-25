@@ -1,3 +1,6 @@
+
+![Java CI with Maven](https://github.com/hgfkeep/k8s-java-client/workflows/Java%20CI%20with%20Maven/badge.svg)
+
 # kubernetes java client with metrics api
 
 ## Dependency
