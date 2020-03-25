@@ -15,7 +15,7 @@
 <dependency>
     <groupId>win.hgfdodo</groupId>
     <artifactId>k8sclient</artifactId>
-    <version>0.1.6</version>
+    <version>0.1.7</version>
 </dependency>
 ```
 
