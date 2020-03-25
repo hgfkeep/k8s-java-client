@@ -6,6 +6,23 @@
     <groupId>win.hgfdodo</groupId>
     <artifactId>k8sclient</artifactId>
     <version>0.1.6</version>
+    <name>kubernetes java client</name>
+    <description>kubernetes java client with metrics api</description>
+    <url>https://github.com/hgfkeep/k8s-java-client</url>
+
+    <developers>
+        <developer>
+            <name>Guangfu He</name>
+            <email>hgfkeep@gmail.com</email>
+            <url>https://github.com/hgfkeep</url>
+        </developer>
+    </developers>
+    <scm>
+        <connection>hgfkeep@gmail.com</connection>
+        <url>https://github.com/hgfkeep/k8s-java-client</url>
+        <developerConnection>https://github.com/hgfkeep/k8s-java-client</developerConnection>
+    </scm>
+
 
     <distributionManagement>
         <repository>
@@ -272,4 +289,11 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>actable</distribution>
+        </license>
+    </licenses>
 </project>
