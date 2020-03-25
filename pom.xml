@@ -7,15 +7,6 @@
     <artifactId>k8sclient</artifactId>
     <version>0.1.6</version>
 
-    <distributionManagement>
-        <repository>
-            <id>ossrh</id>
-            <name>Releases</name>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
-            <layout>default</layout>
-        </repository>
-    </distributionManagement>
-
     <profiles>
         <profile>
             <id>default</id>
@@ -27,6 +18,25 @@
                 <!-- for maven-doc-plugin 2.X <additionalparam>-Xdoclint:none</additionalparam>-->
                 <doclint>none</doclint>
             </properties>
+            <distributionManagement>
+                <repository>
+                    <id>ossrh</id>
+                    <name>Releases</name>
+                    <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+                    <layout>default</layout>
+                </repository>
+            </distributionManagement>
+        </profile>
+        <profile>
+            <id>github</id>
+            <activation>
+                <jdk>[1.8,)</jdk>
+            </activation>
+            <properties>
+                <!-- for maven-doc-plugin 2.X <additionalparam>-Xdoclint:none</additionalparam>-->
+                <doclint>none</doclint>
+            </properties>
+
         </profile>
     </profiles>
 
