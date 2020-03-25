@@ -1,5 +1,5 @@
 
-![Java CI with Maven](https://github.com/hgfkeep/k8s-java-client/workflows/Java%20CI%20with%20Maven/badge.svg)
+![Java CI with Maven](https://github.com/hgfkeep/k8s-java-client/workflows/Java%20CI%20with%20Maven/badge.svg) ![CI](https://github.com/hgfkeep/k8s-java-client/workflows/CI/badge.svg)
 
 # kubernetes java client with metrics api
 
