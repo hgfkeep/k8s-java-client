@@ -36,7 +36,14 @@
                 <!-- for maven-doc-plugin 2.X <additionalparam>-Xdoclint:none</additionalparam>-->
                 <doclint>none</doclint>
             </properties>
-
+            <distributionManagement>
+                <repository>
+                    <id>github</id>
+                    <name>GitHub Packages</name>
+                    <url>https://maven.pkg.github.com/hgfkeep/k8s-java-client</url>
+                    <layout>default</layout>
+                </repository>
+            </distributionManagement>
         </profile>
     </profiles>
 
