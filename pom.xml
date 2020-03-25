@@ -14,12 +14,6 @@
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
             <layout>default</layout>
         </repository>
-        <snapshotRepository>
-            <id>ossrh-snapshot</id>
-            <name>Snapshot</name>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-            <layout>default</layout>
-        </snapshotRepository>
     </distributionManagement>
 
     <build>
