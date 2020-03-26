@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>win.hgfdodo</groupId>
     <artifactId>k8sclient</artifactId>
-    <version>0.1.8</version>
+    <version>0.1.9</version>
     <name>kubernetes java client</name>
     <description>kubernetes java client with metrics api</description>
     <url>https://github.com/hgfkeep/k8s-java-client</url>
